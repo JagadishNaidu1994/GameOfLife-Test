@@ -25,6 +25,7 @@ pipeline {
                 script {
                     echo "Deploying War File.........."
                     gv.deployApp()
+                    echo "Deployed......."
                 }
             }
         }
