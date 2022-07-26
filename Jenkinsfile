@@ -4,7 +4,7 @@ def gv
 pipeline {
     agent any
     stages {
-        stage("load script") {
+        stage("Load script") {
             steps {
                 script {
                   // linking script file
@@ -12,7 +12,7 @@ pipeline {
                 }
             }
         }
-        stage("build war") {
+        stage("Build war") {
             steps {
                 script {
                     echo "Building............"
