@@ -4,7 +4,7 @@ def gv
 pipeline {
     agent any
     stages {
-        stage("Load scripts") {
+        stage("Load script") {
             steps {
                 script {
                   // linking script file
